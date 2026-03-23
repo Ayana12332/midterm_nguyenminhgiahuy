@@ -1,0 +1,14 @@
+{
+  "name": "midterm-backend",
+  "version": "1.0.0",
+  "description": "Backend for midterm full-stack app",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
